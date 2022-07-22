@@ -1,0 +1,9 @@
+[all]
+54.185.14.223 ansible_user=rahman
+34.218.238.52 ansible_user=rahmanapp
+
+[nginx]
+54.185.14.223 ansible_user=rahman
+
+[app]
+34.218.238.52 ansible_user=rahmanapp
