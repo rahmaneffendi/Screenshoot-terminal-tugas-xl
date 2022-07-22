@@ -1,5 +1,22 @@
 # Dokumentasi Screenshot
 
+## ssh
+
+Lokal 
+
+![image](https://user-images.githubusercontent.com/99697182/180351438-f666913c-a7f8-40f8-9c91-b64471c1eed4.png)
+
+Server Nginx
+
+![image](https://user-images.githubusercontent.com/99697182/180351217-a72f193a-3eb7-4eaf-9fd5-1fc05d203be2.png)
+
+Server App
+
+![image](https://user-images.githubusercontent.com/99697182/180351383-6828d407-f9dc-444f-8902-4b63d00f7512.png)
+
+
+## ansible
+
 ![image](https://user-images.githubusercontent.com/99697182/180349311-b89b4454-395d-47f4-b6d8-bcdb0f2086a9.png)
 
 ansible.cfg
@@ -50,5 +67,35 @@ prometheus.yml
 
 ![image](https://user-images.githubusercontent.com/99697182/180350065-73311d99-8f1b-45d7-ab16-d0a30c026c8c.png)
 
-## Cat
+## reverse Proxy
+
+![image](https://user-images.githubusercontent.com/99697182/180350705-8cc813dd-6efe-49e7-a500-a318306a3c91.png)
+
+app.conf
+
+![image](https://user-images.githubusercontent.com/99697182/180350765-028f818c-fcfd-433a-80d4-afad84a63fb1.png)
+
+grafana.conf
+
+![image](https://user-images.githubusercontent.com/99697182/180350833-10c292f4-0bf6-4cab-92e5-67e9ced665ee.png)
+
+jenkins.conf
+
+![image](https://user-images.githubusercontent.com/99697182/180350877-78b17f8d-f51e-40fc-946f-9365283e8d1c.png)
+
+prometheus.conf
+
+![image](https://user-images.githubusercontent.com/99697182/180350924-427e070a-3b0a-47b5-822a-ce4e3d061b69.png)
+
+nginx.conf
+
+![image](https://user-images.githubusercontent.com/99697182/180351026-62e90111-97a6-4d7c-b901-459caeaef55b.png)
+
+## My Own Note
+
+![image](https://user-images.githubusercontent.com/99697182/180350359-cf8999eb-99f3-4d7d-8ca3-48257fa5b81e.png)
+
+![image](https://user-images.githubusercontent.com/99697182/180350393-815bf0b6-95fb-4644-b3e9-b7b9fb2cef75.png)
+
+
 
