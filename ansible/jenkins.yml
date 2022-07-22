@@ -1,0 +1,25 @@
+- hosts: nginx
+  become: true
+  tasks:
+  - name: jenkins volume
+    file:
+     path: /home/rahman/jenkins_home
+     state: directory
+     owner: 1000
+     group: 1000
+
+  - name: 'install python docker'
+    shell: sudo apt install python3-docker -y
+
+  - name: Pull jenkins
+    docker_image:
+     name: jenkins/jenkins:latest
+     source: pull
+  - name: Container jenkins
+    docker_container:
+     name: jenkins
+     image: jenkins/jenkins
+     ports:
+      - 8080:8080
+      - 50000:50000
+     volumes: /home/rahman/jenkins_home:/var/jenkins_home

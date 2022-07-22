@@ -1,0 +1,15 @@
+- hosts: nginx
+  become: true
+  gather_facts: yes
+  tasks:
+    - name: "copy configuration prometheus.yml"
+      copy:
+        src: files/
+        dest: /home/rahman/prometheus/
+        owner: rahman
+        group: sudo
+        mode: 0664
+    - name: "install prometheus"
+      command: "docker run -d --name=prometheus -p 9090:9090 -v /home/rahman/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus"
+    - name: "install grafana"
+      command: "docker run -d --name=grafana -p 3000:3000 grafana/grafana"
