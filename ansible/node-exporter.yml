@@ -1,0 +1,6 @@
+- hosts: all
+  become: true
+  gather_facts: yes
+  tasks:
+    - name: 'install node exporter'
+      shell: "docker run -d --name=node-exporter --net=\"host\" --pid=\"host\" -v \"/:/host:ro,rslave\" prom/node-exporter:latest --path.rootfs=/host"
